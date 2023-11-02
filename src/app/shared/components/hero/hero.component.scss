@@ -1,0 +1,22 @@
+.hero-container {
+    min-height: 85vh; /* Adjust the height based on your needs */
+    background-color: #343a40; /* Adjust the background color */
+    color: #fff; /* Adjust the text color */
+    background-color: #343a40; /* Adjust the background color */
+    background-image: url("../../../../assets/Images/cropped-pistaciafood11-1.png"); /* Specify the background image URL */
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+  .hero-text {
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-image {
+    // min-height: 20vh; /* Adjust the height based on your needs */
+  }
+  

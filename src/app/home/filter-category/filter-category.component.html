@@ -1,0 +1,39 @@
+<div class=" container-fluid p-4 border">
+    <ul ngbNav  #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+        <li [ngbNavItem]="1">
+            <button   ngbNavLink>Home</button>
+            <ng-template ngbNavContent>
+                <div class="scrollable-content" style="max-height: 700px; overflow-y: auto;">
+                    <app-meal-list tabName="Home" ></app-meal-list>
+                </div>                
+            </ng-template>
+        </li>
+        <li [ngbNavItem]="2" >
+            <button ngbNavLink >Categories</button>
+            <ng-template ngbNavContent>
+                <div class="scrollable-content" style="max-height: 700px; overflow-y: auto;">
+                    <app-meal-list tabName="Categories"></app-meal-list>
+                </div>
+            </ng-template>
+        </li>
+        <li [ngbNavItem]="3">
+            <button ngbNavLink>Locations</button>
+            <ng-template ngbNavContent>
+                <div class="scrollable-content" style="max-height: 700px; overflow-y: auto;">
+                    <app-meal-list tabName="Locations"></app-meal-list>
+                </div>
+            </ng-template>
+        </li>
+        <li [ngbNavItem]="4">
+            <button ngbNavLink>Ingredient</button>
+            <ng-template ngbNavContent>
+                <div class="scrollable-content" style="max-height: 700px; overflow-y: auto;">
+                    <app-meal-list tabName="Ingredient"></app-meal-list>
+                </div>
+            </ng-template>
+        </li>
+    </ul>
+    
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
+    
+</div>

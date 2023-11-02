@@ -1,0 +1,57 @@
+
+.sidebar h2 {
+ 
+    &.text-center {
+      color: #28a745; // Green color, you can change it
+      font-family: "Montserrat", "Source Sans Pro";
+      font-size: 2rem; // Adjust the font size
+      font-weight: bold;
+      text-transform: capitalize;
+      font-style: italic;
+      margin-bottom: 1.5rem;
+      font-family: "Montserrat", "Source Sans Pro";
+      font-size: 1.5rem; // Adjust the font size
+      font-weight: 400; // Adjust the font weight
+      line-height: 1.2175;
+      margin: 0.6rem 1.1rem 0.6rem 1.1rem; // Adjust the margins
+      color: #84bd00; // Adjust the text color
+      white-space: nowrap;
+    }
+  }
+  #filterHeading {
+      align-items: center;
+      color: #80e031;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Montez, "Source Sans Pro";
+      font-family: 'Montez', 'Source Sans Pro', sans-serif;
+  // font-style:italic;
+      font-size: 2.1rem;
+      font-weight: 400;
+      justify-content: center;
+      line-height: 1.31;
+      margin-bottom: 4.15rem;
+      white-space: nowrap;
+      width: 100%;
+      // font-family: "Montserrat", "Source Sans Pro";
+
+    }
+
+    #filterHeading{
+      ul{
+
+        li{
+          cursor: pointer;
+
+        }
+      }
+    }
+ div > ul  > li{
+  cursor: pointer;
+  color: #515151;
+  transition: 1s ease;
+    &:hover{
+      transform: scale(1.1);
+      color: #131313;
+    }
+ }

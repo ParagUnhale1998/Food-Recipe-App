@@ -1,0 +1,56 @@
+.filterBtn{
+    align-items: center;
+    color: #84bd00;
+    display: flex;
+    font-family: Montserrat, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 600;
+    height: 2.5rem;
+    justify-content: center;
+    left: 53.25rem;
+    line-height: 1.2175;
+    position: absolute;
+    top: 2.6rem;
+    white-space: nowrap;
+    width: 6.9rem;
+  }
+  .nav-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+ 
+    #ngb-nav-0,#ngb-nav-1,#ngb-nav-2,#ngb-nav-3{
+        color: #84bd00;
+        font-family: 'Montez', 'Source Sans Pro', sans-serif;
+
+        border-radius: none;
+        font-size: 2rem;
+    }
+    #ngb-nav-0{
+
+        .nav-link .active{
+            background: #0000004b;
+        }
+    } 
+    #ngb-nav-0.active,#ngb-nav-1.active,#ngb-nav-2.active,#ngb-nav-3.active{
+background:revert;
+    }
+
+    .scrollable-content{
+
+        scroll-behavior: smooth;
+    }
+    .scrollable-content::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      .scrollable-content::-webkit-scrollbar-track {
+        background-color: #f5f5f5;
+      }
+      
+      .scrollable-content::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 6px;
+        border: 3px solid #f5f5f5;
+      }

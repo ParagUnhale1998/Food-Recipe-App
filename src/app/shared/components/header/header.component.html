@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg px-4">
+    <div class="container-fluid">
+  
+      <!-- Logo on the left with padding -->
+      <a class="navbar-brand mb-2" href="/">
+        <img src="assets/Images/cp-logo-1.png" alt="Logo">
+      </a>
+  
+      <!-- Toggler button for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Category Dropdown and Search Bar in one div -->
+      <div class="collapse navbar-collapse justify-content-between align-items-center flex-grow-1" id="navbarSupportedContent">
+        <!-- Category Dropdown -->
+        <ul class="navbar-nav mb-2 mb-lg-0 p-1 p-lg-0" >
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mb-2" href="#" id="categoryDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="categoryDropdown"  >
+              <a *ngFor="let meal of categories"  class="dropdown-item" (click)="navigateToMeals(meal.strCategory)" >{{meal.strCategory}}</a>
+            </div>
+          </li>
+        </ul>
+  
+        <!-- Search Bar -->
+        <form class="d-flex justify-content-between align-items-center w-100 w-lg-auto mb-2">
+            <input class="form-control me-2 search-input border rounded" type="search" #search placeholder="Search Meals..." aria-label="Search">
+            <button class="btn btn-outline-secondary " type="submit" (click)="searchMeals(search.value)" >Search</button>
+          </form>
+          
+  
+        <!-- Cart on the right -->
+        <div class="navbar-text ms-lg-3 border rounded p-2 mb-2">
+          <a href="#">
+            <i class="fas fa-shopping-cart fs-4"></i>
+          </a>
+        </div>
+      </div>
+  
+    </div>
+  </nav>
+ 
+  
+       
+ 
+  

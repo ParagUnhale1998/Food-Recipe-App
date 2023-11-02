@@ -1,0 +1,40 @@
+<div class="container-fluid   p-4 sidebar">
+    <h2 class="text-center  font-weight-bold mb-4 " id="filterHeading">Filter Recipes</h2>
+
+    <!-- Diet Filters -->
+    <h2 class="text-center  font-weight-bold mb-2  cusine-pPB">Diet</h2>
+
+    <ul class="list-unstyled mb-4 text-center" (click)="navigateToMainPage('Ingredients')">
+        <li  class="dairy-free-TSq">Dairy Free</li>
+        <li class="egg-free-kgq">Egg Free</li>
+        <li class="sugar-free-U73">Sugar Free</li>
+        <li class="gluten-free-BXF">Gluten Free</li>
+    </ul>
+
+    <!-- Allergies Section -->
+    <h2 class="text-center  font-weight-bold mb-2  cusine-pPB">Allergies</h2>
+    <ul class="list-unstyled mb-4 text-center frame-2-xRX" (click)="navigateToMainPage('Random')">
+        <li class="glutten-5FF">Gluten</li>
+        <li class="legumes-kEu">Legumes</li>
+        <li class="grain-Gyw">Grain</li>
+        <li class="fruite-gnm">Fruite</li>
+    </ul>
+    
+    <!-- Cuisine Section -->
+    <h2 class="text-center  font-weight-bold mb-2  cusine-pPB" >Cuisine</h2>
+    <ul class="list-unstyled mb-4 text-center" (click)="navigateToMainPage('Locations')">
+        <li class="asian-vx1">Asian</li>
+        <li class="italian-qp5">Italian</li>
+        <li class="chines-Zk5">Chinese</li>
+        <li class="thai-5iR">Thai</li>
+    </ul>
+
+    <!-- Goals Section -->
+    <h2 class="text-center  font-weight-bold mb-2  goals-CY9">Goals</h2>
+    <ul class="list-unstyled mb-4 text-center" (click)="navigateToMainPage('Random2')">
+        <li class="weight-loss-jHB">Weight Loss</li>
+        <li class="freshness-3Hs">Freshness</li>
+        <li class="activeness-xvd">Activeness</li>
+        <li class="rich-nutritions-gbj">Rich Nutritions</li>
+    </ul>
+</div>

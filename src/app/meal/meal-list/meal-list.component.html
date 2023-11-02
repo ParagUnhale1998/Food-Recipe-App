@@ -1,0 +1,54 @@
+<div class="container  d-flex align-items-start justify-content-around flex-wrap gap-4">
+
+  <div class="card" style="width: 18rem;" *ngFor="let meal of allMeals">
+    <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Home'">
+      <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+        style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{meal.strMeal}}</h5>
+        <p class="card-location">Location: {{meal.strArea}}</p>
+        <p class="card-text">Recipe : {{meal.strInstructions.split(' ').splice(0, 20).join(' ') }}...</p>
+      </div>
+      <div class="card-body">
+        <button class="btn btn-success">Details</button>
+      </div>
+    </div>
+
+
+    <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Categories'">
+      <img [src]="meal.strCategoryThumb" class="card-img-top img-thumbnail"
+        style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{meal.strCategory}}</h5>
+        <p class="card-text">Recipe : {{meal.strCategoryDescription.split(' ').splice(0, 15).join(' ') }}...</p>
+      </div>
+      <div class="card-body">
+        <button class="btn btn-success">Details</button>
+      </div>
+    </div>
+    <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Locations'">
+      <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+        style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{meal.strArea}}</h5>
+        <p class="card-location">Location: {{meal.strMeal}}</p>
+        <p class="card-text">Recipe : {{meal.strInstructions.split(' ').splice(0, 20).join(' ') }}...</p>
+      </div>
+      <div class="card-body">
+        <button class="btn btn-success">Details</button>
+      </div>
+    </div>
+    <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Ingredient'">
+      <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+        style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+      <div class="card-body m-0 p-1">
+        <p class="ingredient-Title">{{meal.strMeal}}</p>
+      </div>
+      <div class="card-body ingredient-btn">
+        <button class="btn btn-success">Details</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,55 @@
+<app-header></app-header>
+<div class="container-fluid text-center">
+    <div class="container-fluid  d-flex align-items-start justify-content-around flex-wrap gap-4 mb-5">
+        <div class="card" style="width: 18rem;" *ngFor="let meal of allMeals">
+            <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Home'">
+                <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+                  style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{meal.strMeal}}</h5>
+                  <p class="card-location">Location: {{meal.strArea}}</p>
+                  <p class="card-text">Recipe : {{meal.strInstructions.split(' ').splice(0, 20).join(' ') }}...</p>
+                </div>
+                <div class="card-body">
+                  <button class="btn btn-success">Details</button>
+                </div>
+              </div>
+          
+          
+              <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Categories'">
+                <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+                  style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{meal.strMeal}}</h5>
+                </div>
+                <div class="card-body">
+                  <button class="btn btn-success">Details</button>
+                </div>
+              </div>
+              <div class="container-fluid m-0 p-0" *ngIf="this.tabName === 'Locations'">
+                <img [src]="meal.strMealThumb" class="card-img-top img-thumbnail"
+                  style="width: 18rem;height: 200px; object-fit: cover; " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{meal.strArea}}</h5>
+                  <p class="card-location">Location: {{meal.strMeal}}</p>
+                  <p class="card-text">Recipe : {{meal.strInstructions.split(' ').splice(0, 20).join(' ') }}...</p>
+                </div>
+                <div class="card-body">
+                    <button class="btn btn-success">Details</button>
+                </div>
+            </div>
+            <div class="container-fluid m-0 p-0 text-center" *ngIf="this.tabName === 'Ingredient'">
+                <img src="https://www.themealdb.com/images/ingredients/{{meal.strIngredient}}.png" class="card-img-top img-thumbnail" alt="{{meal.strIngredient}}">
+                <div class="card-body m-0 p-1">
+                    <h5 class="ingredient-Title text-center">{{meal.strIngredient}}</h5>
+                    <!-- <p class="card-text" text-center>Recipe : {{meal.strDescription.split(' ').splice(0, 20).join(' ') }}...</p> -->
+                </div>
+                <div class="card-body ingredient-btn">
+                    <button class="btn btn-success text-center">Details</button>
+                </div>
+              </div>
+        </div>
+    </div>
+    <button *ngIf="this.tabName === 'Ingredient'" class="btn btn-dark text-center m-3" (click)="loadMoreIngredients()">Show More</button>
+</div>
+<app-footer></app-footer>

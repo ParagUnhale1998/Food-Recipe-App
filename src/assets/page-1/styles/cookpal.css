@@ -1,0 +1,1325 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 153.8rem;
+}.cookpal-R9B {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.cookpal-R9B .auto-group-ekz3-G9o {
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+  padding: 1.15rem 14.95rem 0.55rem 7.35rem;
+  width: 157.5rem;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #000000;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .community-tqP {
+  margin: 0rem 5rem 0.7rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .books-YQ9 {
+  margin: 0rem 5.2rem 0.7rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .receipe-index-exy {
+  margin: 0rem 4.55rem 0.7rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .popular-AwK {
+  margin: 0rem 82rem 0.7rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .item--u8D {
+  margin: 0.7rem 0.8rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #509e2f;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .register-C7K {
+  margin: 0rem 2.75rem 0.3rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .item--Vs7 {
+  margin: 0rem 0.6rem 0.3rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #509e2f;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-ekz3-G9o .login-pPb {
+  margin-bottom: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-yai5-ff7 {
+  margin-bottom: 2.65rem;
+  width: 154.8rem;
+  height: 54.3rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .cp-logo-1-ZEh {
+  width: 15rem;
+  height: 7.2rem;
+  position: absolute;
+  left: 11.2rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-2-sWH {
+  width: 72.6rem;
+  height: 4.6rem;
+  position: absolute;
+  left: 37rem;
+  top: 2.5rem;
+  border: solid 0.1rem #d9d9d9;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-3-AEV {
+  width: 21.1rem;
+  height: 4.4rem;
+  position: absolute;
+  left: 37.1rem;
+  top: 2.6rem;
+  background-color: rgba(208, 197, 197, 0.200000003);
+  border-radius: 2rem;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .all-categories-fww {
+  width: 14.1rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 38.8rem;
+  top: 3.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .search-N5f {
+  width: 7.2rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 61.2rem;
+  top: 3.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #d9d9d9;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .ellipse-5-s2R {
+  width: 4.4rem;
+  height: 4.6rem;
+  position: absolute;
+  left: 105.2rem;
+  top: 2.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .item--PmT {
+  width: 1.3rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 106.75rem;
+  top: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .item--ty7 {
+  width: 2.5rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 130.65rem;
+  top: 6.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .ellipse-6-bMj {
+  width: 5.3rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 137.1rem;
+  top: 1.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .ellipse-7-8cZ {
+  width: 3rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 131.6rem;
+  top: 1.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .item-3-sq3 {
+  width: 1rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 132.55rem;
+  top: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .cropped-pistaciafood11-1-PHb {
+  width: 153.8rem;
+  height: 43.5rem;
+  position: absolute;
+  left: 0;
+  top: 10.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .more-KS9 {
+  width: 11.7rem;
+  height: 8rem;
+  position: absolute;
+  left: 21.2rem;
+  top: 34.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.59;
+  color: #ffffff;
+  font-family: Mina, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-34-RVB {
+  width: 7.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 14.6rem;
+  background-color: #485cc4;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-35-ABs {
+  width: 7.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 23.5rem;
+  background-color: #f70e0e;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-36-sc5 {
+  width: 7.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 32.4rem;
+  background-color: #0ebff7;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-37-DA9 {
+  width: 7.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 41.3rem;
+  background-color: #d50012;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .facebook-1-x7j {
+  width: 6.3rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 14.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .pinterest-1-VNZ {
+  width: 5.9rem;
+  height: 8.2rem;
+  position: absolute;
+  left: 147.6rem;
+  top: 41.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .youtube-1-p9w {
+  width: 6.5rem;
+  height: 8.8rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 23.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .twitter-1-Z7X {
+  width: 6.4rem;
+  height: 8.9rem;
+  position: absolute;
+  left: 147.4rem;
+  top: 32.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .meat-chicken-tvV {
+  width: 44.1rem;
+  height: 7.4rem;
+  position: absolute;
+  left: 6.4rem;
+  top: 22.55rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .meat-chicken-tvV .meat-chicken-tvV-sub-0 {
+}
+.cookpal-R9B .auto-group-yai5-ff7 .meat-chicken-tvV .meat-chicken-tvV-sub-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-38-MBo {
+  width: 27.8rem;
+  height: 7.9rem;
+  position: absolute;
+  left: 12.4rem;
+  top: 34.3rem;
+  border: solid 0.1rem #ffffff;
+  box-sizing: border-box;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-45-UnD {
+  width: 12rem;
+  height: 12.4rem;
+  position: absolute;
+  left: 130.4rem;
+  top: 8rem;
+  border: solid 0 #84bd00;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .privacy-a4Z {
+  width: 4.7rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 134.6rem;
+  top: 10.7rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .collections-tL9 {
+  width: 7.2rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 134.4rem;
+  top: 13rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .settings-1Qm {
+  width: 5.4rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 134.4rem;
+  top: 15.3rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .logout-Xe1 {
+  width: 4.7rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 134.4rem;
+  top: 17.6rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-46-rAV {
+  width: 12rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 130.4rem;
+  top: 8rem;
+  background-color: rgba(132, 189, 0, 0.4900000095);
+}
+.cookpal-R9B .auto-group-yai5-ff7 .profile-PAR {
+  width: 4.2rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 134.5rem;
+  top: 8.4rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .rectangle-47-hS1 {
+  width: 0.4rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 130.4rem;
+  top: 8rem;
+  background-color: #84bd00;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .item--SeV {
+  width: 0.7rem;
+  height: 1.3rem;
+  position: absolute;
+  left: 132.35rem;
+  top: 13.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #000000;
+  font-family: IcoFont, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-yai5-ff7 .gear-1-8XK {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  left: 132.1rem;
+  top: 15.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb {
+  width: 163.1022rem;
+  height: 137.25rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .cusines-z3j {
+  width: 12.1rem;
+  height: 6.6rem;
+  position: absolute;
+  left: 46rem;
+  top: 8.7rem;
+  display: flex;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.31;
+  color: #84bd00;
+  font-family: Montez, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .home-uAh {
+  width: 6.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 53.25rem;
+  top: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .home-bZK {
+  width: 6.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 53.25rem;
+  top: 130.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .explore-WgH {
+  width: 7.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 68.9rem;
+  top: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .explore-RoF {
+  width: 7.8rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 68.9rem;
+  top: 130.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .help-wmb {
+  width: 4.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.5rem;
+  top: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .help-rdf {
+  width: 4.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 86.5rem;
+  top: 130.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .profile-ZY5 {
+  width: 6.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 101.7rem;
+  top: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .profile-SLy {
+  width: 6.7rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 101.7rem;
+  top: 130.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .line-2-MD3 {
+  width: 72.5rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 45.5rem;
+  top: 0.55rem;
+  background-color: rgba(208, 197, 197, 0.5);
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+}
+.cookpal-R9B .auto-group-afay-TZb .line-3-r9o {
+  width: 72.5rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 45.4rem;
+  top: 6.95rem;
+  background-color: #d9d9d9;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH {
+  width: 73rem;
+  height: 30.05rem;
+  position: absolute;
+  left: 46.1rem;
+  top: 85.2rem;
+  display: flex;
+  align-items: flex-end;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH .auto-group-ekrd-VTf {
+  margin: 0rem 4.2rem 0.1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH .auto-group-ekrd-VTf .bakery-coB {
+  margin: 0rem 0rem 0.35rem 0.4rem;
+  display: flex;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.31;
+  color: #84bd00;
+  font-family: Montez, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH .auto-group-ekrd-VTf .rectangle-29-eUy {
+  width: 21.5rem;
+  height: 23rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH .rectangle-28-PSZ {
+  margin-right: 4.3rem;
+  width: 21.5rem;
+  height: 23rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-12-AgH .rectangle-27-89F {
+  width: 21.5rem;
+  height: 23rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-1-Uiu {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 46rem;
+  top: 40.75rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-4-RPF {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 46.1rem;
+  top: 80.75rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-5-MGu {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 71.6rem;
+  top: 80.75rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-6-tXj {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 97.5rem;
+  top: 80.45rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-2-ELh {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 71.5rem;
+  top: 40.75rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .chat-3-Nho {
+  width: 1.0057rem;
+  height: 1.0051rem;
+  position: absolute;
+  left: 97.7rem;
+  top: 40.75rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .rectangle-31-7vH {
+  width: 1rem;
+  height: 15rem;
+  position: absolute;
+  left: 152.2rem;
+  top: 1.95rem;
+  background-color: #d9d9d9;
+  border-radius: 5rem;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q {
+  width: 23.05rem;
+  height: 89.5rem;
+  position: absolute;
+  left: 10.7rem;
+  top: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .filter-recipes-Mpd {
+  margin-bottom: 4.15rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.31;
+  color: #84bd00;
+  font-family: Montez, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .diet-UeM {
+  margin: 0rem 0rem 0.65rem 0.6rem;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .dairy-free-cEm {
+  margin: 0rem 0rem 0.6rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .egg-free-8yo {
+  margin: 0rem 0rem 0.6rem 0.9rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .sugar-free-UGy {
+  margin: 0rem 0rem 0.6rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .gluten-free-bsP {
+  margin: 0rem 0rem 3.85rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-1-86d {
+  margin-bottom: 0.65rem;
+  width: 15.1rem;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-2-bW1 {
+  margin: 0rem 0rem 5.15rem 1.1rem;
+  width: 9.4rem;
+  row-gap: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-2-bW1 .glutten-iad {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-2-bW1 .legumes-SmX {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-2-bW1 .grain-PAy {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .frame-2-bW1 .fruite-KaR {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .cusine-GVf {
+  margin-bottom: 0.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .asian-oVb {
+  margin: 0rem 0rem 0.65rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .italian-LEd {
+  margin: 0rem 0rem 0.6rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .chines-ULq {
+  margin: 0rem 0rem 0.6rem 0.9rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .thai-1rZ {
+  margin: 0rem 0rem 5.95rem 0.9rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .goals-MvR {
+  margin-bottom: 0.65rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .weight-loss-6t1 {
+  margin: 0rem 0rem 0.6rem 1.2rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2175;
+  color: #84bd00;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .freshness-3HT {
+  margin: 0rem 0rem 0.6rem 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .activeness-yS1 {
+  margin: 0rem 0rem 0.6rem 1.3rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-9-44q .rich-nutritions-WRw {
+  margin-left: 1.1rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.cookpal-R9B .auto-group-afay-TZb .image-2-T6H {
+  width: 44.1186rem;
+  height: 87.6189rem;
+  position: absolute;
+  left: 118.9836rem;
+  top: 13.6699rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .rectangle-48-Bny {
+  width: 153.8rem;
+  height: 24.3rem;
+  position: absolute;
+  left: 0;
+  top: 112.95rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .cp-logo-2-vkZ {
+  width: 15rem;
+  height: 7.2rem;
+  position: absolute;
+  left: 11.2rem;
+  top: 123.25rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f {
+  width: 49.7rem;
+  height: 17.1rem;
+  position: absolute;
+  left: 46rem;
+  top: 118rem;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-m2r5-bLu {
+  margin: 0rem 0rem 0.8rem 0.1rem;
+  display: flex;
+  align-items: center;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-m2r5-bLu .fresh-recipe-7a9 {
+  margin-right: 4.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-m2r5-bLu .in-news-qW9 {
+  margin-right: 13.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-m2r5-bLu .about-us-meh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-g8u7-hYM {
+  margin: 0rem 0rem 1rem 0.1rem;
+  display: flex;
+  align-items: center;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-g8u7-hYM .recipes-dgu {
+  margin-right: 12.2rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-g8u7-hYM .our-blogs-xUH {
+  margin-right: 14.3rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-g8u7-hYM .faq-UhX {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-k425-yuB {
+  margin: 0rem 0rem 1rem 0.1rem;
+  display: flex;
+  align-items: center;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-k425-yuB .winter-salads-ibs {
+  margin-right: 7.9rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-k425-yuB .contests-sweepsatkes-3PF {
+  margin-right: 5rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-k425-yuB .our-board-Ayf {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-vaau-7e1 {
+  margin: 0rem 0rem 0.9rem 0.2rem;
+  display: flex;
+  align-items: flex-start;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-vaau-7e1 .organic-chicken-TSy {
+  margin: 0.1rem 5.7rem 0rem 0rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-vaau-7e1 .video-N49 {
+  margin-right: 17.5rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-vaau-7e1 .our-staff-Uss {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zgzf-cjB {
+  margin-bottom: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zgzf-cjB .beef-and-mutton-xHF {
+  margin-right: 5.4rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zgzf-cjB .new-releases-V2H {
+  margin-right: 11.4rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zgzf-cjB .contact-us-d8V {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zp9f-ZH3 {
+  margin: 0rem 22.6rem 0rem 0.2rem;
+  width: calc(100% - 22.8rem);
+  display: flex;
+  align-items: center;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zp9f-ZH3 .flavoured-milk-tKK {
+  margin-right: 6.9rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .group-7-57f .auto-group-zp9f-ZH3 .newsletters-DsP {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.cookpal-R9B .auto-group-afay-TZb .all-rights-reserved-ZRT {
+  width: 19.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 11.2rem;
+  top: 131.6rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
