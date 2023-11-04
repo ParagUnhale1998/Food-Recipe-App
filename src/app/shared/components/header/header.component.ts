@@ -32,7 +32,6 @@ export class HeaderComponent implements OnInit{
   }
    
   searchMeals(searchName:any){
-    // this.router.navigateByUrl(`allMeals/${searchName}`);
     this.router.navigateByUrl(`allMeals/${searchName}/${'inputSearch'}`);
 
   }
