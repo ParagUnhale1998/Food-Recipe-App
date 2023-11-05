@@ -11,12 +11,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FilterCategoryComponent } from './filter-category/filter-category.component';
 import { SharedModule } from '../shared/shared/shared.module';
 import { MealModule } from '../meal/meal.module';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     SidebarComponent,
     FilterCategoryComponent,
+    CartComponent,
 
   ],
   imports: [
