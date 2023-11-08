@@ -1,1 +1,34 @@
-<p>cart works!</p>
+<app-header></app-header>
+<div class="container-fluid mb-5">
+    <h2 class="text-center">My Meals Cart</h2>
+    <div class="container border mt-5">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Location</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let meal of cartItems">
+            <td class="align-middle">
+              <img [src]="meal.strMealThumb" class="img-fluid  rounded-start img-thumbnail image" alt="Product Image">
+            </td>
+            <td class="align-middle">{{ meal.strMeal }}</td>
+            <td class="align-middle">{{ meal.strArea }}</td>
+            <td class="align-middle text-center">
+              <button class="btn btn-success">Details</button>
+              <button class="btn btn-danger m-2" (click)="removeFromCart(meal.idMeal)">Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+      <div *ngIf="cartItems.length === 0" class="text-center mt-3">
+        <h3 class="empty">Your cart is empty.</h3>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>

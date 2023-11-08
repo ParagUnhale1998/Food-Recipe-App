@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ApiService } from 'src/app/core/serviecs/api.service';
 import { map } from 'rxjs/operators';
+import { Router } from '@angular/router';
+import { CartService } from 'src/app/core/serviecs/cart.service';
 
 @Component({
   selector: 'app-meal-list',
@@ -15,7 +17,7 @@ export class MealListComponent implements OnInit {
   categoryMeals!: any[];
   locationMeals!: any[];
   ingredientMeals!: any[];
-  constructor(private mealApi: ApiService) {}
+  constructor(private mealApi: ApiService,private router:Router,private cartService:CartService) {}
 
   ngOnInit(): void {
     if (this.tabName === 'Home') {
@@ -99,5 +101,12 @@ export class MealListComponent implements OnInit {
         console.log(err);
       },
     });
+  }
+
+  navigateToCart(meal:any){
+
+    this.cartService.addToCart(meal)
+    console.log(meal) 
+    this.router.navigateByUrl('cart')
   }
 }

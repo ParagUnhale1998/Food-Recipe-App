@@ -9,8 +9,11 @@
         <p class="card-location">Location: {{meal.strArea}}</p>
         <p class="card-text">Recipe : {{meal.strInstructions.split(' ').splice(0, 20).join(' ') }}...</p>
       </div>
-      <div class="card-body">
+      <div class="card-body d-flex justify-content-between gap-4 ">
         <button class="btn btn-success">Details</button>
+        <button class="btn btn-dark" (click)="navigateToCart(meal)">             
+          <i class="fas fa-shopping-cart fs-4"></i>
+        </button>
       </div>
     </div>
 
