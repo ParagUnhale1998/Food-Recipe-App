@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from 'src/app/core/serviecs/api.service';
 import { map } from 'rxjs/operators';
 
@@ -15,7 +15,7 @@ export class MainAllMealsComponent implements OnInit {
   tabName: string = '';
   initialIngredientsToShow = 20;
 additionalIngredientsToShow = 20;
-  constructor(private mealApi: ApiService, private route: ActivatedRoute) {}
+  constructor(private mealApi: ApiService, private route: ActivatedRoute,private router:Router) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
@@ -30,6 +30,14 @@ additionalIngredientsToShow = 20;
       } else if( type === 'Locations') {
         this.tabName = 'Locations';
         this.getLocationMeals();
+      } 
+      else if( type === 'SingleLocation') {
+        this.tabName = 'SingleLocation';
+        this.getMealByLocation(name);
+      } 
+      else if( type === 'SingleIngredient') {
+        this.tabName = 'SingleIngredient';
+        this.getMealByIngredient(name);
       } 
       else if( type === 'allMeals') {
         this.tabName = 'Home';
@@ -149,7 +157,6 @@ additionalIngredientsToShow = 20;
         // this.allMeals = data.meals.slice(0, this.initialIngredientsToShow);
         const endIndex = this.allMeals.length + this.additionalIngredientsToShow;
         this.allMeals = this.allMeals.concat(data.meals.slice(this.allMeals.length, endIndex));
-
         console.log(data);
         console.log( this.allMeals );
       },
@@ -163,5 +170,36 @@ additionalIngredientsToShow = 20;
   this.getallIngredients()
   }
   
+  getMealByLocation(locationName:any){
+    this.tabName = 'SingleLocation';
+    this.mealApi.getMealByLocation(locationName).subscribe({
+      next: (data: any) => {
+        this.allMeals = data.meals;
+        console.log(data.meals);
+      },
+      error: (err) => {
+        console.log(err);
+      },
+    })
+  }
+  
+  getMealByIngredient(ingredientName:any){
+    this.tabName = 'SingleIngredient';
+    this.mealApi.getMealBySingleIngredient(ingredientName).subscribe({
+      next: (data: any) => {
+        this.allMeals = data.meals;
+        console.log( data);
+        console.log(  this.allMeals);
+      },
+      error: (err) => {
+        console.log(err);
+      },
+    })
+  }
 
-}
+  navigateToDetails(id:any){
+    this.router.navigateByUrl(`mealDetails/${id}`);
+  }
+
+  }
+  

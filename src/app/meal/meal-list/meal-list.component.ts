@@ -32,22 +32,15 @@ export class MealListComponent implements OnInit {
   }
 
   getRandomMeals() {
-    if (this.randomMeals && this.randomMeals.length > 0) {
-      console.log('works');
-    } else {
-      console.log('not works');
       this.mealApi.getRandomMeal().subscribe({
         next: (data: any) => {
           this.allMeals = data.meals;
-          this.randomMeals = data.meals.map((meal: any) => ({ ...meal })); // Use map to create a deep copy
           console.log(this.allMeals);
-          console.log(this.randomMeals);
         },
         error: (err) => {
           console.log(err);
         },
       });
-    }
   }
 
   getLocationMeals() {
@@ -66,7 +59,7 @@ export class MealListComponent implements OnInit {
       .subscribe({
         next: (sortedMeals: []) => {
           this.allMeals = sortedMeals;
-          console.log(sortedMeals);
+          console.log( this.allMeals )
         },
         error: (err) => {
           console.log(err);
@@ -78,9 +71,7 @@ export class MealListComponent implements OnInit {
     this.mealApi.getCategoryMeal().subscribe({
       next: (data: any) => {
         this.allMeals = data.categories;
-        const categoriesData: [] = data.categories;
-        this.categoryMeals.push(...categoriesData);
-        console.log(this.allMeals);
+        console.log( this.allMeals )
       },
       error: (err) => {
         console.log(err);
@@ -92,10 +83,7 @@ export class MealListComponent implements OnInit {
     this.mealApi.getIngredientMeal().subscribe({
       next: (data: any) => {
         this.allMeals = data.meals;
-        console.log(data.meals);
-        const ingredientMealsData: [] = data.meals;
-
-        this.ingredientMeals.push(...ingredientMealsData);
+        console.log( this.allMeals )
       },
       error: (err) => {
         console.log(err);
@@ -104,9 +92,20 @@ export class MealListComponent implements OnInit {
   }
 
   navigateToCart(meal:any){
-
     this.cartService.addToCart(meal)
     console.log(meal) 
     this.router.navigateByUrl('cart')
+  }
+  navigateToLocationMeals(name:any){
+    this.router.navigateByUrl(`allMeals/${name}/${'SingleLocation'}`);
+  }
+  navigateToCategoryMeals(name:any){
+    this.router.navigateByUrl(`allMeals/${name}/${'categories'}`);
+  }
+  navigateToIngredient(name:any){
+    this.router.navigateByUrl(`allMeals/${name}/${name}`);
+  }
+  navigateToDetails(id:any){
+    this.router.navigateByUrl(`mealDetails/${id}`);
   }
 }

@@ -20,10 +20,18 @@
     justify-content: space-evenly;
   }
  
+  button{
+    color: #84bd00;
+    font-family: 'Montez', 'Source Sans Pro', sans-serif;
+    border-radius: none;
+    font-size: 2rem;
+    &:hover{
+      color: #000;
+    }
+  }
     #ngb-nav-0,#ngb-nav-1,#ngb-nav-2,#ngb-nav-3{
         color: #84bd00;
         font-family: 'Montez', 'Source Sans Pro', sans-serif;
-
         border-radius: none;
         font-size: 2rem;
     }

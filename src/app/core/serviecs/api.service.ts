@@ -27,6 +27,18 @@ export class ApiService {
    getIngredientAll(){
     return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/list.php?i=list')
    }
+   getMealByLocation(location:any){
+    return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/filter.php?a='+ location)
+   }
+   getMealBySingleIngredient(ingredientName:any){
+    return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/filter.php?i='+ ingredientName)
+   }
+   
+   getMealByID(idMeal:any){
+    return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/lookup.php?i='+ idMeal)
+   }
+   
+
    
 
 }

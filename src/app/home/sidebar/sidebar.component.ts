@@ -10,8 +10,6 @@ export class SidebarComponent {
 
 constructor(private router:Router){}
   navigateToMainPage(name:any){
-// this.router.navigateByUrl('allMeals')
 this.router.navigateByUrl(`allMeals/${name}/${name}`);
-
   }
 }

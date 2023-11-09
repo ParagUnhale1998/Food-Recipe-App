@@ -37,6 +37,11 @@ export class HeaderComponent implements OnInit{
   }
   navigateToMeals(name:any){
     this.router.navigateByUrl(`allMeals/${name}/${'categories'}`);
-
+  }
+  // navigateToHome(){
+  //   this.router.navigateByUrl(``);
+  // }
+  navigateToCart(){
+    this.router.navigateByUrl(`cart`);
   }
 }

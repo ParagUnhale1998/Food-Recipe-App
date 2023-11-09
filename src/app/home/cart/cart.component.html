@@ -1,4 +1,4 @@
-<app-header></app-header>
+<!-- <app-header></app-header> -->
 <div class="container-fluid mb-5">
     <h2 class="text-center">My Meals Cart</h2>
     <div class="container border mt-5">
@@ -19,7 +19,7 @@
             <td class="align-middle">{{ meal.strMeal }}</td>
             <td class="align-middle">{{ meal.strArea }}</td>
             <td class="align-middle text-center">
-              <button class="btn btn-success">Details</button>
+              <button class="btn btn-success" (click)="navigateToDetails(meal.idMeal)">Details</button>
               <button class="btn btn-danger m-2" (click)="removeFromCart(meal.idMeal)">Remove</button>
             </td>
           </tr>
@@ -31,4 +31,4 @@
       </div>
     </div>
   </div>
-  <app-footer></app-footer>
+  <!-- <app-footer></app-footer> -->

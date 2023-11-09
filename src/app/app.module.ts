@@ -8,6 +8,7 @@ import { MealModule } from './meal/meal.module';
 import { CategoryModule } from './category/category.module';
 import { HomeModule } from './home/home.module';
 import {HttpClientModule} from '@angular/common/http'
+import { SharedModule } from './shared/shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import {HttpClientModule} from '@angular/common/http'
     MealModule,
     CategoryModule,
     HomeModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
