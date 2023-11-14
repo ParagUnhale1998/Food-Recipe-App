@@ -1,6 +1,7 @@
 import { Component,OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ApiService } from 'src/app/core/serviecs/api.service';
+import { CachingServiceService } from 'src/app/core/serviecs/caching-service.service';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent implements OnInit{
  
   categories:any;
 
-  constructor(private mealApi:ApiService,private router:Router){
+  constructor(private mealApi:ApiService,private router:Router,private cachingService:CachingServiceService){
   }
 
   ngOnInit(): void {
@@ -20,6 +21,7 @@ export class HeaderComponent implements OnInit{
   }
 
   getCategoryMeals() {
+    
     this.mealApi.getCategoryMeal().subscribe({
       next: (data: any) => {
         this.categories = data.categories;
