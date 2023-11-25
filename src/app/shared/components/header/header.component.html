@@ -26,10 +26,10 @@
         </ul>
   
         <!-- Search Bar -->
-        <form class="d-flex justify-content-between align-items-center w-100 w-lg-auto mb-2">
-            <input class="form-control me-2 search-input border rounded" type="search" #search placeholder="Search Meals..." aria-label="Search">
+        <div class="d-flex justify-content-between align-items-center w-100 w-lg-auto mb-2">
+            <input class="form-control me-2 search-input border rounded" type="search" #search placeholder="Search Meals..." aria-label="Search"   (keyup.enter)="searchMeals(search.value)">
             <button class="btn btn-outline-secondary " type="submit" (click)="searchMeals(search.value)" >Search</button>
-          </form>
+          </div>
           
   
         <!-- Cart on the right -->

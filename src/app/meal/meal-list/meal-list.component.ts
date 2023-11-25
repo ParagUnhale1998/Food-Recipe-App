@@ -17,6 +17,7 @@ export class MealListComponent implements OnInit {
   categoryMeals!: any[];
   locationMeals!: any[];
   ingredientMeals!: any[];
+  
   constructor(private mealApi: ApiService,private router:Router,private cartService:CartService) {}
 
   ngOnInit(): void {
@@ -35,7 +36,7 @@ export class MealListComponent implements OnInit {
       this.mealApi.getRandomMeal().subscribe({
         next: (data: any) => {
           this.allMeals = data.meals;
-          console.log(this.allMeals);
+          // console.log(this.allMeals);
         },
         error: (err) => {
           console.log(err);
@@ -59,7 +60,7 @@ export class MealListComponent implements OnInit {
       .subscribe({
         next: (sortedMeals: []) => {
           this.allMeals = sortedMeals;
-          console.log( this.allMeals )
+          // console.log( this.allMeals )
         },
         error: (err) => {
           console.log(err);
@@ -71,7 +72,7 @@ export class MealListComponent implements OnInit {
     this.mealApi.getCategoryMeal().subscribe({
       next: (data: any) => {
         this.allMeals = data.categories;
-        console.log( this.allMeals )
+        // console.log( this.allMeals )
       },
       error: (err) => {
         console.log(err);
@@ -83,7 +84,7 @@ export class MealListComponent implements OnInit {
     this.mealApi.getIngredientMeal().subscribe({
       next: (data: any) => {
         this.allMeals = data.meals;
-        console.log( this.allMeals )
+        // console.log( this.allMeals )
       },
       error: (err) => {
         console.log(err);

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from 'src/app/core/serviecs/api.service';
 import { map } from 'rxjs/operators';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @Component({
   selector: 'app-main-all-meals',
@@ -61,18 +62,63 @@ additionalIngredientsToShow = 20;
       }
     });
   }
+memoizedResults: { [key: string]: any } = {};
+maxHistorySize: number = 5;
+// Use an array to store recent search values
+searchHistory: string[] = [];
 
-  getSearchMeals(mealName:any){
+getSearchMeals(mealName: any) {
+  // Check if results are already memoized
+  if (this.memoizedResults[mealName]) {
+    this.allMeals = this.memoizedResults[mealName];
+    console.log('Results from memoization:', this.allMeals);
+  } else {
     this.mealApi.getSearchMeal(mealName).subscribe({
       next: (data: any) => {
         this.allMeals = data.meals;
-        console.log(this.allMeals)
+        console.log('Results from API call:', this.allMeals);
+        // Memoize the results
+        this.memoizedResults[mealName] = data.meals;
+
+        // Update the search history
+        this.updateSearchHistory(mealName);
+        console.log(this.searchHistory)
+        // Check and evict the least recently used entry if the cache size exceeds the limit
+        if (this.searchHistory.length > this.maxHistorySize) {
+          this.searchHistory.shift(); // Remove the oldest entry
+        }
       },
       error: (err) => {
         console.log(err);
       },
     });
   }
+}
+
+updateSearchHistory(mealName: string) {
+  // Remove the existing entry if it exists
+  const index = this.searchHistory.indexOf(mealName);
+  if (index !== -1) {
+    this.searchHistory.splice(index, 1);
+  }
+
+  // Add the new entry to the beginning of the array
+  this.searchHistory.unshift(mealName);
+  this.searchHistory = this.searchHistory.slice(0, 5);
+
+}
+
+  // getSearchMeals(mealName:any){
+  //   this.mealApi.getSearchMeal(mealName).subscribe({
+  //     next: (data: any) => {
+  //       this.allMeals = data.meals;
+  //       console.log(this.allMeals)
+  //     },
+  //     error: (err) => {
+  //       console.log(err);
+  //     },
+  //   });
+  // }
 
   getRandomMeals() {
     this.mealApi.getRandomMeal().subscribe({
@@ -200,6 +246,12 @@ additionalIngredientsToShow = 20;
   navigateToDetails(id:any){
     this.router.navigateByUrl(`mealDetails/${id}`);
   }
-
+ 
+  getIngredientImageUrl(ingredient: string): string {
+    return `https://www.themealdb.com/images/ingredients/${ingredient}.png`;
+  }
+  getIngredientSmallImageUrl(ingredient: string): string{
+    return `https://www.themealdb.com/images/ingredients/${ingredient}-small.png`;
+  }
   }
   

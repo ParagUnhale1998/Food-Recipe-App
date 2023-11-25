@@ -10,12 +10,11 @@ export class ApiService {
 
   constructor(private httpclient:HttpClient ,private cachingService:CachingServiceService) { }
 
-  getRandomMeal(){
+  getRandomMeal(): Observable<any>{
     const cacheKey = 'RandomMeals'
     const cachedData = this.cachingService.get(cacheKey);
     if (cachedData) {
       console.log('catched random Meals')
-
       return new Observable((observer) => {
         observer.next(cachedData);
         observer.complete();
@@ -45,7 +44,7 @@ export class ApiService {
    }
    }
 
-   getIngredientMeal(){
+   getIngredientMeal(): Observable<any>{
     const cacheKey = 'ingredientMeal'
    const cachedData = this.cachingService.get(cacheKey);
    if (cachedData) {
@@ -64,7 +63,7 @@ export class ApiService {
    }
    }
 
-   getSingleCategoryMeal(name:any){
+   getSingleCategoryMeal(name:any): Observable<any>{
     const cacheKey = name
    const cachedData = this.cachingService.get(cacheKey);
    if (cachedData) {
@@ -74,6 +73,7 @@ export class ApiService {
        observer.complete();
      });
    }else{
+    console.log('call api SingleCategoryMeal')
      return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/filter.php?c='+ name).pipe(
       tap((data) => {
         this.cachingService.set(cacheKey,data)
@@ -95,6 +95,7 @@ export class ApiService {
       });
     }
     else{
+      console.log('call api IngredientAll')
       return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/list.php?i=list')
       .pipe(tap(data => this.cachingService.set(cacheKey,data)))
     }
@@ -109,6 +110,7 @@ export class ApiService {
         observer.complete();
       });
     }else{
+      console.log('call api loactions Meal')
       return this.httpclient.get('https://www.themealdb.com/api/json/v1/1/filter.php?a='+ location)
 .pipe(tap((data) => this.cachingService.set(cacheKey,data)))
     }

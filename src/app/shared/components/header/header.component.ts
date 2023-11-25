@@ -21,21 +21,20 @@ export class HeaderComponent implements OnInit{
   }
 
   getCategoryMeals() {
-    
+
     this.mealApi.getCategoryMeal().subscribe({
       next: (data: any) => {
         this.categories = data.categories;
-        console.log(this.categories);
+        console.log('Categories loaded:', this.categories);
       },
       error: (err) => {
-        console.log(err);
+        console.error('Error loading categories:', err);
       },
     });
   }
    
   searchMeals(searchName:any){
     this.router.navigateByUrl(`allMeals/${searchName}/${'inputSearch'}`);
-
   }
   navigateToMeals(name:any){
     this.router.navigateByUrl(`allMeals/${name}/${'categories'}`);

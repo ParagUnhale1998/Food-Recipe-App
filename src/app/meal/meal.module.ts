@@ -8,6 +8,7 @@ import { MainAllMealsComponent } from './main-all-meals/main-all-meals.component
 import { HeaderComponent } from '../shared/components/header/header.component';
 import { FooterComponent } from '../shared/components/footer/footer.component';
 import { SharedModule } from '../shared/shared/shared.module';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { SharedModule } from '../shared/shared/shared.module';
   imports: [
     CommonModule,
     MealRoutingModule,
+    LazyLoadImageModule,
     SharedModule
   ],
   exports:[
